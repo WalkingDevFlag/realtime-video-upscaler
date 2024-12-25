@@ -3,8 +3,14 @@ a)
 
 Step 2: Upscale every other frame using the GAN (effectively processing at 15 FPS):
 a) https://github.com/HasnainRaz/Fast-SRGAN
+b) https://github.com/Djdefrag/RealScaler
+c) https://github.com/Djdefrag/QualityScaler
+d) https://github.com/bloc97/Anime4K
+e) https://github.com/itmo153277/JoshUpscale
 
 Step 3: Use a frame generation algorithm to create intermediate frames between the upscaled frames, effectively bringing the frame rate back up to 30 or even 60 FPS:
 a) https://github.com/google-research/frame-interpolation
 b) https://www.tensorflow.org/hub/tutorials/tf_hub_film_example
-3) https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/hub/tutorials/tf_hub_film_example.ipynb#scrollTo=DQcWZm0FkPk-
+c) https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/hub/tutorials/tf_hub_film_example.ipynb#scrollTo=DQcWZm0FkPk-
+d) https://github.com/NVIDIA/DLSS
+e) https://github.com/Djdefrag/FluidFrames.RIFE
