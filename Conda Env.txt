@@ -1,0 +1,12 @@
+1) conda create -n rvu python=3.10
+2) conda activate rvu
+3) pip install mss
+4) pip install opencv-python
+
+5) git clone https://github.com/HasnainRaz/Fast-SRGAN.git
+6) cd Fast-SRGAN
+7) pip install pipenv --upgrade
+8) pipenv install --system --deploy (error)
+
+9) pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+10) pip install realesrgan
